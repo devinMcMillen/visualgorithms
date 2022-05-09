@@ -1,0 +1,18 @@
+.code-visualization-container {
+  height: 100vh;
+  margin:0;
+  padding:0;
+  background-color:blue;
+}
+.output-container {
+  background-color:green;
+  width:50%;
+  height:100%;
+  display: inline-block;
+}
+.input-container {
+  background-color:red;
+  width:50%;
+  height:100%;
+  display: inline-block;
+}

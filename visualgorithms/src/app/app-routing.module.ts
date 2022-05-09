@@ -1,3 +1,4 @@
+import { CodeVisualizationComponent } from './pages/code-visualization/code-visualization.component';
 import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -7,7 +8,7 @@ import { SetComponent } from './pages/set/set.component';
 const routes: Routes = [
   {path: 'array', component: ArrayComponent},
   {path: 'set', component: SetComponent},
-  {path: '', component: AppComponent}
+  {path: '', component: CodeVisualizationComponent}
 ];
 
 @NgModule({

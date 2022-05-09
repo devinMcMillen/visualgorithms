@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ArrayComponent } from './pages/array/array.component';
 import { SetComponent } from './pages/set/set.component';
 import { ArrayElementComponent } from './pages/array/array-element/array-element.component';
+import { CodeVisualizationComponent } from './pages/code-visualization/code-visualization.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArrayComponent,
     SetComponent,
-    ArrayElementComponent
+    ArrayElementComponent,
+    CodeVisualizationComponent,
   ],
   imports: [
     BrowserModule,
