@@ -7,6 +7,7 @@ import { ArrayComponent } from './pages/array/array.component';
 import { SetComponent } from './pages/set/set.component';
 import { ArrayElementComponent } from './pages/array/array-element/array-element.component';
 import { CodeVisualizationComponent } from './pages/code-visualization/code-visualization.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CodeVisualizationComponent } from './pages/code-visualization/code-visu
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

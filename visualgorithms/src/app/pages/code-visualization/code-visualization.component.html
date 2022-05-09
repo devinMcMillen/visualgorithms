@@ -1,15 +1,31 @@
-<div class="code-visualization-container">
-  <div class="output-container">
-    Ouput Window
-  </div>
-
-  <div class="input-container">
-    <div>
-      Code Execution area
+<section class="hero is-fullheight-with-navbar">
+  <div class="hero-body">
+    <div class="window">
+      <div>
+        Visualization Window
+      </div>
+      <div>
+        Code Analysis
+      </div>
     </div>
-    <div>
-      Code Area
+
+    <div class="window">
+
+      <label>Code</label>
+      <textarea
+        class="textarea coding-textarea"
+        placeholder="Start writing Python"
+        [(ngModel)]="pythonCode"></textarea>
+
+        <div class="buttons is-right">
+          <button class="button is-primary" (click)="alertText()">Analyze</button>
+          <button class="button is-success" (click)="alertText()">Run</button>
+          <button class="button is-link" (click)="alertText()">Step</button>
+        </div>
+
+
+      <label>Console</label>
+      <textarea class="textarea" placeholder="Console Output" readonly>{{pythonCode}}</textarea>
     </div>
   </div>
-</div>
-
+</section>

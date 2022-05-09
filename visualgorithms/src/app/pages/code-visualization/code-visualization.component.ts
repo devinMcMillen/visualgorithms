@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./code-visualization.component.css']
 })
 export class CodeVisualizationComponent implements OnInit {
+  public pythonCode: string;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
+  public alertText() {
+    window.alert(this.pythonCode);
+  }
 }
