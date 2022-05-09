@@ -1,0 +1,34 @@
+.elementContainer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  display: flex;
+  float: left;
+  height: 75px;
+  width: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  clear: both;
+  background-color: white;
+  font-size: 45px;
+}
+
+.staticElement {
+  border: 5px solid red;
+}
+
+.iIndexAtPosition {
+  border: 5px solid green;
+}
+
+.jIndexAtPosition {
+  border: 5px solid blue;
+}
+
+.kIndexAtPosition {
+  border: 5px solid yellow;
+}

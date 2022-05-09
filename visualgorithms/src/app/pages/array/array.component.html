@@ -1,1 +1,8 @@
-<p>array works!</p>
+<div style="display: inline-flex;">
+  <div *ngFor="let element of arrayElements; index as i">
+    <app-array-element
+      [elementValue]="element"
+      [elementIndex]="i"
+      [indexEnum]="getIndexEnum(i)"></app-array-element>
+  </div>
+</div>
